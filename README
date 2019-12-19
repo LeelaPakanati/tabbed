@@ -2,6 +2,13 @@ tabbed - generic tabbed interface
 =================================
 tabbed is a simple tabbed X window container.
 
+Added Features
+--------------
+* Key Release - function handling on key release
+* Hide tabs - keep tabs hidden by default, show when C-S is held
+
+Both of these features are submitted as patches on suckless's website
+
 Requirements
 ------------
 In order to build tabbed you need the Xlib header files.
@@ -19,4 +26,3 @@ Afterwards enter the following command to build and install tabbed
 Running tabbed
 --------------
 See the man page for details.
-
